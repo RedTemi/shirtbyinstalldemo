@@ -6,6 +6,7 @@
   margin: 0;
 }
 
+
 .navi 
 {
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -13,15 +14,15 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 .cardi {
   font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
-  font-size: 3em;
-  font-weight: 800;
+  /*font-size: 3em;*/
+  /*font-weight: 800;*/
   height: 100vh;
   width: 100vw;
   padding: 0.5em 1em;
   border-radius: 0.25em;
   /*display: table-cell;*/
-  /*vertical-align: middle;*/
-  letter-spacing: -2px;
+  vertical-align: middle;
+  letter-spacing: -1px;
   /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
 }
 
@@ -30,6 +31,10 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   font-size: 0.5em;
   font-weight: 400;
   letter-spacing: -1px;
+}
+
+.nav.navbar-nav.navbar-toggler-right li a {
+  color: black;
 }
 
 .card i {
@@ -47,7 +52,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   background: -webkit-linear-gradient(110deg, #fdcd3b 50%, #ffed4b 50%);
   background: -o-linear-gradient(110deg, #fdcd3b 50%, #ffed4b 50%);
   background: -moz-linear-gradient(110deg, #fdcd3b 50%, #ffed4b 50%);
-  background: linear-gradient(110deg, #fdcd3b 50%, rgba(0, 0, 0, 0) 50%), url('images/94f9aef4df2a5ce54a5cf701ef864c07.jpg');
+  background: linear-gradient(110deg, #fdcd3b 60%, rgba(0, 0, 0, 0) 50%), url('images/94f9aef4df2a5ce54a5cf701ef864c07.jpg');
   background-size: auto;
   background-position: 50% 21%;
   background-attachment: fixed;
